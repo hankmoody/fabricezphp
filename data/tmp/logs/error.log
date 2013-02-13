@@ -1,0 +1,483 @@
+2013-02-10 17:56:37 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-10 17:58:17 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:36 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:39 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:41 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:41 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:42 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:42 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:00:48 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:04:29 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:05:26 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-10 18:05:53 Error: [MissingViewException] View file "C:\Users\Vikrant\xampp\fabricezPHP\app\View\Products\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Vikrant\\xampp\\fabricezPHP\\app\\View\\Products\\index.ctp',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-10 18:06:40 Error: [MissingViewException] View file "C:\Users\Vikrant\xampp\fabricezPHP\app\View\Products\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Vikrant\\xampp\\fabricezPHP\\app\\View\\Products\\index.ctp',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-11 06:20:32 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 06:55:44 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'products',
+  'class' => 'Product',
+  'ds' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#3 [internal function]: ProductsController->index()
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-02-11 06:56:50 Error: [MissingControllerException] Controller class Products.Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Products.Controller',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/products.
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:13:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 07:13:24 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:20:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\NotesController.php, line 9]
+2013-02-11 07:20:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 9, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 9, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 07:21:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\NotesController.php, line 9]
+2013-02-11 07:21:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 9, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 9, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 07:24:04 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:08 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:26 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:26 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:27 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fabricezPHP/products
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3195): ConnectionManager::getDataSource('default')
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(3217): Model->setSource('products')
+#4 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Model\Model.php(2674): Model->getDataSource()
+#5 C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\ProductsController.php(9): Model->find('all')
+#6 [internal function]: ProductsController->index()
+#7 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#8 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-11 07:24:36 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:26 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:27 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:28 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:28 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:29 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:29 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:29 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:30 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:30 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:30 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:31 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:53 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:54 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:54 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:25:55 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-11 07:26:07 Error: [MissingActionException] Action NotesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'NotesController',
+  'action' => 'index',
+)
+Request URL: /fabricezPHP/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
