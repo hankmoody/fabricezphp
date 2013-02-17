@@ -158,7 +158,22 @@ To change its layout, edit: APP/View/Layouts/default.ctp.<br />
 You can also add some CSS styles for your pages at: APP/webroot/css.');
 ?>
 </p>
-
+<h3><?php //echo __d('cake_dev', 'Environment Variables'); ?></h3>
+<p>
+    <?php
+        // $db_host = getenv('DB_HOST');
+        // $db_name = getenv('DB_NAME');
+        // $db_pass = getenv('DB_PASS');
+        // $db_user = getenv('DB_USER');
+        // echo __d(
+            // 'cake_dev', "This section displays the environment variables<br />
+            // Database Host: $db_host <br />
+            // Database Name: $db_name <br />
+            // Database User: $db_user <br />
+            // Database Pass: $db_pass <br />"
+            // );
+    ?>
+</p>
 <h3><?php echo __d('cake_dev', 'Getting Started'); ?></h3>
 <p>
 	<?php
