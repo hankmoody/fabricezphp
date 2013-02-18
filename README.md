@@ -1,4 +1,4 @@
-CakePHP (FabricEZ app)
+CakePHP (FabricEZ app) (pull request test)
 =======
 
 [![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
