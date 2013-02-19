@@ -502,3 +502,363 @@ Stack Trace:
 #1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-02-18 07:03:40 Error: [MissingActionException] Action AppController::webrooot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webrooot',
+)
+Request URL: /fabricezPHP/app/webrooot
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 07:03:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 09:23:22 Error: [MissingControllerException] Controller class CollectionController could not be found.
+Exception Attributes: array (
+  'class' => 'CollectionController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/collection
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 09:23:26 Error: Fatal Error (1): Class 'AppModel' not found in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 4]
+2013-02-18 09:23:26 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:25:59 Error: Fatal Error (1): Class 'AppModel' not found in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 4]
+2013-02-18 09:25:59 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:30:15 Error: Fatal Error (1): Class 'AppModel' not found in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 4]
+2013-02-18 09:30:15 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\Users\Vikran...', 4, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:32:11 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 8]
+2013-02-18 09:32:11 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:32:31 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 8]
+2013-02-18 09:32:31 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:33:59 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 8]
+2013-02-18 09:33:59 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:37:29 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 8]
+2013-02-18 09:37:29 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:37:31 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 8]
+2013-02-18 09:37:31 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 8, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:38:50 Error: [MissingControllerException] Controller class CollectionsController could not be found.
+Exception Attributes: array (
+  'class' => 'CollectionsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 09:39:04 Error: [MissingActionException] Action CollectionsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CollectionsController',
+  'action' => 'index',
+)
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CollectionsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 09:39:26 Error: Fatal Error (4): syntax error, unexpected '}', expecting ';' or '{' in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 6]
+2013-02-18 09:39:26 Error: [FatalErrorException] syntax error, unexpected '}', expecting ';' or '{'
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\Vikran...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\Vikran...', 6, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\Vikran...', 6, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:39:39 Error: Fatal Error (64): Non-abstract method CollectionsController::index() must contain body in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 5]
+2013-02-18 09:39:39 Error: [FatalErrorException] Non-abstract method CollectionsController::index() must contain body
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Non-abstract me...', 'C:\Users\Vikran...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Non-abstract me...', 'C:\Users\Vikran...', 5, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Non-abstract me...', 'C:\Users\Vikran...', 5, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:41:16 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 7]
+2013-02-18 09:41:16 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 7, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 7, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 09:41:42 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\CollectionsController.php, line 7]
+2013-02-18 09:41:42 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fabricezPHP/collections
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Users\Vikran...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Users\Vikran...', 7, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Users\Vikran...', 7, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-18 10:18:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:18:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/css/bootstrap.css
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:18:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/css/bootstrap.css
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:18:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:18:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:18:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/css/bootstrap.css
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:18:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:19:41 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /fabricezPHP/app/View/css/bootstrap.css
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 10:19:41 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /fabricezPHP/app/View/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 10:19:54 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /fabricezPHP/app/View/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 10:19:54 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /fabricezPHP/app/View/css/bootstrap.css
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 10:19:54 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /fabricezPHP/app/View/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-18 10:20:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/css/bootstrap.css
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-18 10:20:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fabricezPHP/js/bootstrap.js
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-19 05:14:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 05:15:29 Error: Fatal Error (64): Cannot redeclare class AppController in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\AppController.php, line 36]
+2013-02-19 05:15:29 Error: [FatalErrorException] Cannot redeclare class AppController
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Vikran...', 36)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Vikran...', 36, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Vikran...', 36, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-19 05:15:48 Error: Fatal Error (64): Cannot redeclare class AppController in [C:\Users\Vikrant\xampp\fabricezPHP\app\Controller\AppController.php, line 37]
+2013-02-19 05:15:48 Error: [FatalErrorException] Cannot redeclare class AppController
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Vikran...', 37)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Vikran...', 37, Array)
+#2 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Vikran...', 37, Array)
+#3 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-19 05:16:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 05:28:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /fabricezPHP/app/webroot/
+Stack Trace:
+#0 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Vikrant\xampp\fabricezPHP\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Vikrant\xampp\fabricezPHP\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
